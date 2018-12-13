@@ -1,1 +1,0 @@
-# Dell-EMC-VNX-File-Storage-Scoreboard

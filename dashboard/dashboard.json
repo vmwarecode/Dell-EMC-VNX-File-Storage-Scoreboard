@@ -1,0 +1,1255 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1544703284593,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "6d1472d6-b452-44fe-bd74-2fb49d5c475e",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Dell EMC VNX (File) Storage Scoreboard",
+      "namePath": "Custom Dashboards",
+      "rank": 417,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "18f57b3c-2ba8-498c-8846-cc2fe33fdb22",
+            "widgetIdReceiver": "5a803983-b357-4bf7-8935-f5edbb1a1a0f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "18f57b3c-2ba8-498c-8846-cc2fe33fdb22",
+            "widgetIdReceiver": "e77665b9-c8cc-49be-84f1-412597b5a0be"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "18f57b3c-2ba8-498c-8846-cc2fe33fdb22",
+            "widgetIdReceiver": "bf367c70-2385-4f56-b7ea-608a860b697a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "18f57b3c-2ba8-498c-8846-cc2fe33fdb22",
+            "widgetIdReceiver": "6c104730-518c-4185-badc-a5f35f44860c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "bf367c70-2385-4f56-b7ea-608a860b697a",
+            "widgetIdReceiver": "e9298285-b285-4523-9ea2-f26516c14eeb"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "bf367c70-2385-4f56-b7ea-608a860b697a",
+            "widgetIdReceiver": "b1c99bd0-4eae-45ef-9f51-9bf349d0dd1b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b1c99bd0-4eae-45ef-9f51-9bf349d0dd1b",
+            "widgetIdReceiver": "00b27f38-c724-4fb3-b42d-dcb4e0277ab1"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC VNX File Arrays"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "18f57b3c-2ba8-498c-8846-cc2fe33fdb22",
+            "states": [{
+               "key": "permResGrid_widget_6d1472d6-b452-44fe-bd74-2fb49d5c475e_18f57b3c-2ba8-498c-8846-cc2fe33fdb22",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC VNX File Arrays",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-2",
+                        "isStringMetric": false,
+                        "metricKey": "general|average_temp",
+                        "metricName": "General|Average Component Temperature",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-3",
+                        "isStringMetric": false,
+                        "metricKey": "general|average_disk_latency",
+                        "metricName": "General|Average Disk Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-4",
+                        "isStringMetric": false,
+                        "metricKey": "general|cpu_utilization",
+                        "metricName": "General|CPU Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-5",
+                        "isStringMetric": false,
+                        "metricKey": "general|highest_temp",
+                        "metricName": "General|Highest Component Temperature",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-6",
+                        "isStringMetric": false,
+                        "metricKey": "general|memory_utilization",
+                        "metricName": "General|Memory Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-7",
+                        "isStringMetric": false,
+                        "metricKey": "general|system_power",
+                        "metricName": "General|System Power",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-8",
+                        "isStringMetric": false,
+                        "metricKey": "general|total_disk_iops",
+                        "metricName": "General|Total Disk IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-9",
+                        "isStringMetric": false,
+                        "metricKey": "general|total_disk_rate",
+                        "metricName": "General|Total Disk Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7984-10",
+                        "isStringMetric": false,
+                        "metricKey": "general|total_network_throughput",
+                        "metricName": "General|Total Network Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "File Array",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected Array)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 5,
+               "y": 1
+            },
+            "height": 210,
+            "id": "5a803983-b357-4bf7-8935-f5edbb1a1a0f",
+            "title": "Scoreboard (for selected Array)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC VNX File NFS Exports (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 5
+            },
+            "height": 210,
+            "id": "e77665b9-c8cc-49be-84f1-412597b5a0be",
+            "states": [{
+               "key": "permResGrid_widget_6d1472d6-b452-44fe-bd74-2fb49d5c475e_e77665b9-c8cc-49be-84f1-412597b5a0be",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC VNX File NFS Exports (for selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 10,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-2",
+                        "isStringMetric": false,
+                        "metricKey": "cifs|cifs_read_kibs",
+                        "metricName": "CIFS|CIFS Read Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-3",
+                        "isStringMetric": false,
+                        "metricKey": "cifs|cifs_total_kibs",
+                        "metricName": "CIFS|CIFS Total Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-4",
+                        "isStringMetric": false,
+                        "metricKey": "cifs|cifs_write_kibs",
+                        "metricName": "CIFS|CIFS Write Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-5",
+                        "isStringMetric": false,
+                        "metricKey": "disk|average_latency",
+                        "metricName": "Disk Volume|Average Disk Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-6",
+                        "isStringMetric": false,
+                        "metricKey": "disk|disk_read_rate",
+                        "metricName": "Disk Volume|Disk Read Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-7",
+                        "isStringMetric": false,
+                        "metricKey": "disk|disk_write_rate",
+                        "metricName": "Disk Volume|Disk Write Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-8",
+                        "isStringMetric": false,
+                        "metricKey": "disk|total_disk_iops",
+                        "metricName": "Disk Volume|Total Disk IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-9",
+                        "isStringMetric": false,
+                        "metricKey": "disk|total_disk_rate",
+                        "metricName": "Disk Volume|Total Disk Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-10",
+                        "isStringMetric": false,
+                        "metricKey": "disk|total_disk_read_iops",
+                        "metricName": "Disk Volume|Total Disk Read IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-11",
+                        "isStringMetric": false,
+                        "metricKey": "disk|total_disk_write_iops",
+                        "metricName": "Disk Volume|Total Disk Write IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-12",
+                        "isStringMetric": false,
+                        "metricKey": "general|active_threads",
+                        "metricName": "General|Active Threads",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-13",
+                        "isStringMetric": false,
+                        "metricKey": "general|buffer_cache_hit_ratio",
+                        "metricName": "General|Buffer Cache Hit Ratio",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-14",
+                        "isStringMetric": false,
+                        "metricKey": "general|cpu_util",
+                        "metricName": "General|CPU Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-15",
+                        "isStringMetric": false,
+                        "metricKey": "general|memory_util",
+                        "metricName": "General|Memory Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-16",
+                        "isStringMetric": false,
+                        "metricKey": "network|network_in_rate",
+                        "metricName": "Network|Network In Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-17",
+                        "isStringMetric": false,
+                        "metricKey": "network|network_out_rate",
+                        "metricName": "Network|Network Out Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12903-18",
+                        "isStringMetric": false,
+                        "metricKey": "network|network_rate",
+                        "metricName": "Network|Total Network Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-1",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb1_flush_calls_per_second",
+                        "metricName": "SMB|SMB1 Flush Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-2",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb1_ntcreatex_calls_per_second",
+                        "metricName": "SMB|SMB1 NTCreateX Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-3",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb1_readx_calls_per_second",
+                        "metricName": "SMB|SMB1 ReadX Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-4",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb1_trans2Prim_calls_per_second",
+                        "metricName": "SMB|SMB1 Trans2Prim Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-5",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb1_writex_calls_per_second",
+                        "metricName": "SMB|SMB1 WriteX Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-6",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb2_flush_calls_per_second",
+                        "metricName": "SMB|SMB2 Flush Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-7",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb2_ioctl_calls_per_second",
+                        "metricName": "SMB|SMB2 IOCTL Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3318-8",
+                        "isStringMetric": false,
+                        "metricKey": "smb|smb2_queryinfo_calls_per_second",
+                        "metricName": "SMB|SMB2 Query Info Calls per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-1",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfs_read_ops_per_second",
+                        "metricName": "NFS|NFS Read Operations per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-2",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfs_total_ops_per_second",
+                        "metricName": "NFS|NFS Total Operations per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-3",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfs_write_ops_per_second",
+                        "metricName": "NFS|NFS Write Operations per Second",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-4",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_access_calls",
+                        "metricName": "NFS|NFSv3 Access Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-5",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_access_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Access Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-6",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_create_calls",
+                        "metricName": "NFS|NFSv3 Create Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-7",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_create_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Create Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-8",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_get_attribute_calls",
+                        "metricName": "NFS|NFSv3 Get Attribute Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-9",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_get_attribute_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Get Attribute Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-10",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_lookup_calls",
+                        "metricName": "NFS|NFSv3 Lookup Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-11",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_lookup_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Lookup Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-12",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_read_calls",
+                        "metricName": "NFS|NFSv3 Read Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-13",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_read_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Read Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-14",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_set_attribute_calls",
+                        "metricName": "NFS|NFSv3 Set Attribute Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-15",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_set_attribute_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Set Attribute Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-16",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_write_calls",
+                        "metricName": "NFS|NFSv3 Write Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-17",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv3_write_errors_per_sec",
+                        "metricName": "NFS|NFSv3 Write Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-18",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_close_calls",
+                        "metricName": "NFS|NFSv4 Close Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-19",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_close_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Close Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-20",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_compound_calls",
+                        "metricName": "NFS|NFSv4 Compound Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-21",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_compound_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Compound Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-22",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_create_calls",
+                        "metricName": "NFS|NFSv4 Create Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-23",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_create_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Create Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-24",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_get_attribute_calls",
+                        "metricName": "NFS|NFSv4 Get Attribute Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-25",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_get_attribute_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Get Attribute Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-26",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_lookup_calls",
+                        "metricName": "NFS|NFSv4 Lookup Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-27",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_lookup_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Lookup Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-28",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_open_calls",
+                        "metricName": "NFS|NFSv4 Open Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-29",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_open_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Open Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-30",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_read_calls",
+                        "metricName": "NFS|NFSv4 Read Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-31",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_read_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Read Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-32",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_set_attribute_calls",
+                        "metricName": "NFS|NFSv4 Set Attribute Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-33",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_set_attribute_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Set Attribute Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-34",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_write_calls",
+                        "metricName": "NFS|NFSv4 Write Calls",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5036-35",
+                        "isStringMetric": false,
+                        "metricKey": "nfs|nfsv4_write_errors_per_sec",
+                        "metricName": "NFS|NFSv4 Write Errors/s",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Data Mover",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected Data Mover)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 12,
+               "x": 1,
+               "y": 9
+            },
+            "height": 438,
+            "id": "e9298285-b285-4523-9ea2-f26516c14eeb",
+            "title": "Scoreboard (for selected Data Mover)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC VNX File Data Mover (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 5
+            },
+            "height": 210,
+            "id": "bf367c70-2385-4f56-b7ea-608a860b697a",
+            "states": [{
+               "key": "permResGrid_widget_6d1472d6-b452-44fe-bd74-2fb49d5c475e_bf367c70-2385-4f56-b7ea-608a860b697a",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC VNX File Data Mover (for selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC VNX File Virtual Data Mover (for selected Array)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 5
+            },
+            "height": 210,
+            "id": "6c104730-518c-4185-badc-a5f35f44860c",
+            "states": [{
+               "key": "permResGrid_widget_6d1472d6-b452-44fe-bd74-2fb49d5c475e_6c104730-518c-4185-badc-a5f35f44860c",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC VNX File Virtual Data Mover (for selected Array)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:4_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:4_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC VNX File Storage Network Interface (for selected Data Mover)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 17
+            },
+            "height": 210,
+            "id": "b1c99bd0-4eae-45ef-9f51-9bf349d0dd1b",
+            "states": [{
+               "key": "permResGrid_widget_6d1472d6-b452-44fe-bd74-2fb49d5c475e_b1c99bd0-4eae-45ef-9f51-9bf349d0dd1b",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC VNX File Storage Network Interface (for selected Data Mover)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7099-1",
+                        "isStringMetric": false,
+                        "metricKey": "general|network_in_rate",
+                        "metricName": "General|Network In Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Network Interface",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7099-2",
+                        "isStringMetric": false,
+                        "metricKey": "general|network_out_rate",
+                        "metricName": "General|Network Out Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Network Interface",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7099-3",
+                        "isStringMetric": false,
+                        "metricKey": "general|network_rate",
+                        "metricName": "General|Network Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Network Interface",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7099-4",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Network Interface",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected Network Interface)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 5,
+               "y": 17
+            },
+            "height": 210,
+            "id": "00b27f38-c724-4fb3-b42d-dcb4e0277ab1",
+            "title": "Scoreboard (for selected Network Interface)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "EMCVNXFILE_ADAPTER",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "nfs_export"
+      },
+      {
+         "adapterKindKey": "EMCVNXFILE_ADAPTER",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "vnx_file"
+      },
+      {
+         "adapterKindKey": "EMCVNXFILE_ADAPTER",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "network_interface"
+      },
+      {
+         "adapterKindKey": "EMCVNXFILE_ADAPTER",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "virtual_data_mover"
+      },
+      {
+         "adapterKindKey": "EMCVNXFILE_ADAPTER",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "data_mover"
+      }
+   ]},
+   "uuid": "20eaba15-385e-43eb-b3d8-060408ab0494"
+}
